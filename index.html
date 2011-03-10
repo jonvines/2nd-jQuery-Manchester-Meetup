@@ -1,0 +1,51 @@
+<!doctype html>  
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Introduction to jQuery</title>
+  <meta name="description" content="An introduction to jQuery using the navigation of a site as its example">
+  <meta name="author" content="Jon Vines">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="stylesheet" href="css/style.css?v=2">
+  <script src="js/libs/modernizr-1.6.min.js"></script>
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+			<h1>The Manchester jQuery Meetup</h1>
+    </header>
+    
+		<nav id="mainNav" class="clearfix">
+			<ul>
+				<li><a href="pages/gandalf.html" data-who="gandalf">Gandalf</a></li>
+				<li><a href="pages/frodo.html" data-who="frodo">Frodo</a></li>
+				<li><a href="pages/legolas.html" data-who="legolas">Legolas</a></li>
+				<li><a href="pages/aragorn.html" data-who="aragorn">Aragorn</a></li>
+				<li><a href="pages/gimli.html" data-who="gimli">Gimli</a></li>
+			</ul>
+		</nav>		
+		
+    <div id="main">
+			
+    </div>
+    
+    <footer>
+			<p>This site was put together to demonstrate the basics of jQuery for the Manchester jQuery Meetup. It was built upon the excellent html5 boilerplate by Paul Irish.</p>
+    </footer>
+  </div> <!-- end of #container -->
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>
+  <script src="js/hashchange.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
