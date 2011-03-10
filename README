@@ -1,0 +1,5 @@
+jQuery Manchester Meetup - 8th March
+
+The code developed in this repository was used as an example to introduce some of the basic concepts of jQuery.
+
+Within this, we look briefly at selectors, events, functions and basic ajax. This code is in now way recommended for commercial use, but as a testing ground for some of the basic opportunities that jQuery enables for us.
